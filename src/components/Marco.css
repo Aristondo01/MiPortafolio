@@ -1,0 +1,94 @@
+.vista{
+    display: flex;
+    height: 95%;
+    width: 98%;
+    border: 5px solid gray;
+    background-color: green;
+    border-radius: 5px;
+    flex-direction: column;
+
+
+
+}
+
+.piso{
+    display: flex;
+    align-self: flex-end;
+    width: 100%;
+    height: 15%;
+    background-color: #3c7467;
+}
+
+.pared{
+    display: flex;
+    align-self: flex-start;
+    width: 100%;
+    height: 85%;
+    background-color: #7aceb4;
+    flex-direction: row;
+    
+}
+
+
+.planta{
+    display: flex;
+    background-image: url("../../public/images/planta.png");
+    width: 170px;
+    height: 170px;
+    align-self: flex-end;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.cuadro{
+    display: flex;
+    background-image: url("../../public/images/astaretrato.png");
+    width: 100px;
+    height: 110px;
+    align-self: flex-end;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 70px;
+    margin-right: 40px;
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-left: 12%;
+    width: fit-content;
+}
+
+.izquierda{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-left: 10%;
+    width: fit-content;
+}
+
+.mueble{
+    display: flex;
+    background-image: url("../../public/images/mueble.png");
+    width: 355.5px;
+    height: 188.25px;
+    align-self: flex-end;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: -5px;
+    align-self: center;
+}
+
+.tele{
+    display: flex;
+    background-image: url("../../public/images/tele.png");
+    width: 400px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: center;
+    margin-right: -14px;
+}
