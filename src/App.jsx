@@ -1,14 +1,10 @@
-import { useState } from 'react'
 import './App.css'
-import Marco from './components/Marco.jsx'
+import Cuarto from './components/Cuarto.jsx'
 
-function App() {
-
-  return (
-    <div className='fondo'>
-      <Marco/>
+const App = () => (
+    <div className="fondo">
+        <Cuarto />
     </div>
-  )
-}
+)
 
 export default App
