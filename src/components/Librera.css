@@ -6,5 +6,78 @@
     align-self: flex-end;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-left: 8vw;
+    margin-left: 10vw;
+    flex-direction: column;
+}
+
+.CajonArriba{
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(2, 130px);
+    grid-gap: 10px;
+    grid-row-gap: 200px;
+    height: 85px;
+    width: 304px;
+    margin-top: 19px;
+    margin-left: 18px;
+}
+
+.ArribaIzquierda{
+    background-color: red;
+    width: 130px;
+    height: 73px;
+
+}
+
+.Platino{
+    display: flex;
+    background-image: url("../../public/images/Platino.png");
+    width: 80px;
+    height: 73px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: flex-end;
+    margin-bottom: 2px;
+    justify-self: center;
+    margin-left: 8px;
+
+}
+
+.Estrella{
+    display: flex;
+    background-image: url("../../public/images/Estrella.png");
+    width: 80px;
+    height: 73px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: flex-end;
+    margin-bottom: 2px;
+    justify-self: center;
+    margin-left: 8px;
+
+}
+
+.CajonCentro{
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(5, 25px);
+    height: 85px;
+    width: 268px;
+    margin-top: 10px;
+    margin-left: 18px;
+}
+
+.libroc{
+    height: 75px;
+    width: 25px;
+    background-color: brown;
+    align-self: flex-end;
+
+}
+.librod{
+    height: 75px;
+    width: 25px;
+    background-color: purple;
+    align-self: flex-end;
+
 }
