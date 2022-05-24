@@ -1,0 +1,31 @@
+.tele{
+    display: flex;
+    background-image: url("../../public/images/tele.png");
+    width: 400px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: center;
+    margin-right: -14px;
+}
+
+.mueble{
+    display: flex;
+    background-image: url("../../public/images/mueble.png");
+    width: 355.5px;
+    height: 188.25px;
+    align-self: flex-end;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: -5px;
+    align-self: center;
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-left: 7vw;
+    width: fit-content;
+}

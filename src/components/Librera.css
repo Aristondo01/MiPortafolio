@@ -1,0 +1,10 @@
+.librera{
+    display: flex;
+    background-image: url("../../public/images/librera.png");
+    width: 310px;
+    height: 384px;
+    align-self: flex-end;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 8vw;
+}
