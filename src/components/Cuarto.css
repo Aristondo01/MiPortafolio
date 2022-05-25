@@ -29,8 +29,17 @@
     
 }
 
+@keyframes latidos {
+    from { transform: none; }
+    50% { transform: scale(1.2); }
+    to { transform: none; }
+}
 
-
+button{
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
 
 .flipon{
     display: flex;
