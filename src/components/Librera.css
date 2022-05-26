@@ -91,6 +91,11 @@
     background-image: url("../../public/images/proyectos.png");
 }
 
+.work1{
+    background-image: url("../../public/images/proyectos.png");
+    animation: 'latidos2 .5s infinite'
+}
+
 button{
     border: 0;
     background-color: transparent;

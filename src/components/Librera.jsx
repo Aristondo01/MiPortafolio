@@ -19,10 +19,30 @@ const Librera = ({ encendido, libro, setLibro }) => {
                 <div className="Estrella" />
             </div>
             <div className="CajonCentro" style={contenido ? { animation: 'latidos2 .5s infinite' } : { }}>
-                <button type="button" className="work" onClick={() => ContentHandler('Work')}> </button>
-                <button type="button" className="figma" onClick={() => ContentHandler('Figma')}> </button>
-                <button type="button" className="replicas" onClick={() => ContentHandler('Replicas')}> </button>
-                <button type="button" className="skills" onClick={() => ContentHandler('Skills')}> </button>
+                <button
+                    type="button"
+                    className="work"
+                    onClick={() => ContentHandler('Work')}
+                    aria-label="Save"
+                />
+                <button
+                    type="button"
+                    className="figma"
+                    onClick={() => ContentHandler('Figma')}
+                    aria-label="Save"
+                />
+                <button
+                    type="button"
+                    className="replicas"
+                    onClick={() => ContentHandler('Replicas')}
+                    aria-label="Save"
+                />
+                <button
+                    type="button"
+                    className="skills"
+                    onClick={() => ContentHandler('Skills')}
+                    aria-label="Save"
+                />
             </div>
         </div>
     )
