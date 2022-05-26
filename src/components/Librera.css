@@ -72,7 +72,7 @@
 }
 
 .skills{
-    background-image: url("../../public/images/conocimientos.png");
+    background-image: url("../../public/images/Conocimientos.png");
     margin-left: 2.5px;
     transform: rotate(-5deg);
 }
@@ -84,17 +84,13 @@
 }
 
 .replicas{
-    background-image: url("../../public/images/replicas.png");
+    background-image: url("../../public/images/Replicas.png");
 
 }
 .work{
-    background-image: url("../../public/images/proyectos.png");
+    background-image: url("../../public/images/Proyectos.png");
 }
 
-.work1{
-    background-image: url("../../public/images/proyectos.png");
-    animation: 'latidos2 .5s infinite'
-}
 
 button{
     border: 0;
