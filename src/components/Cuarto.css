@@ -43,7 +43,7 @@ button{
 
 .flipon{
     display: flex;
-    background-image: url("../../public/images/flipon.png");
+    background-image: url("../../images/flipon.png");
     width: 30px;
     height: 40px;
     align-self: center;

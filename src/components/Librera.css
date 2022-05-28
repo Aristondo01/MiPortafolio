@@ -1,6 +1,6 @@
 .librera{
     display: flex;
-    background-image: url("../../public/images/librera.png");
+    background-image: url("../../images/librera.png");
     width: 310px;
     height: 384px;
     align-self: flex-end;
@@ -31,7 +31,7 @@
 
 .Platino{
     display: flex;
-    background-image: url("../../public/images/Platino.png");
+    background-image: url("../../images/Platino.png");
     width: 80px;
     height: 73px;
     background-repeat: no-repeat;
@@ -45,7 +45,7 @@
 
 .Estrella{
     display: flex;
-    background-image: url("../../public/images/Estrella.png");
+    background-image: url("../../images/Estrella.png");
     width: 80px;
     height: 73px;
     background-repeat: no-repeat;
@@ -68,11 +68,11 @@
 }
 
 .figma{
-    background-image: url("../../public/images/figma.png");
+    background-image: url("../../images/figma.png");
 }
 
 .skills{
-    background-image: url("../../public/images/Conocimientos.png");
+    background-image: url("../../images/Conocimientos.png");
     margin-left: 2.5px;
     transform: rotate(-5deg);
 }
@@ -84,11 +84,11 @@
 }
 
 .replicas{
-    background-image: url("../../public/images/Replicas.png");
+    background-image: url("../../images/Replicas.png");
 
 }
 .work{
-    background-image: url("../../public/images/Proyectos.png");
+    background-image: url("../../images/Proyectos.png");
 }
 
 
