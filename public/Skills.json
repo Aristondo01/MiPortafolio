@@ -1,8 +1,29 @@
 [
     {
-        "miniatura": "./ReplicasImages/UA-ACADEMY.png"
+        "miniatura": "./SkillsImages/GitHub.jpg"
     },
     {
-        "miniatura": "./ReplicasImages/Youtube.png"
+        "miniatura": "./SkillsImages/REACTJSX.jpg"
+    },
+    {
+        "miniatura": "./SkillsImages/CSSI.jpg"
+    },
+    {
+        "miniatura": "./SkillsImages/JSI.jpg"
+    },
+    {
+        "miniatura": "./SkillsImages/Figma.jpg"
+    },
+    {
+        "miniatura": "./SkillsImages/SQLI.jpg"
+    },
+    {
+        "miniatura": "./SkillsImages/HTMLI.jpg"
+    },
+    {
+        "miniatura": "./SkillsImages/DT.jpg"
+    },
+    {
+        "miniatura": "./SkillsImages/Scrum.jpg"
     }
 ]

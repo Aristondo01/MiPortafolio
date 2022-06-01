@@ -73,7 +73,8 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    transition: 3s ease;
+    transition: 2s ease;
+    background-color: black;
 }
 
 .diapositiva{
