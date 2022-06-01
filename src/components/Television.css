@@ -7,6 +7,7 @@
     background-size: contain;
     align-self: center;
     margin-right: -14px;
+    overflow: hidden;
 }
 
 .mueble{
@@ -21,6 +22,10 @@
     align-self: center;
 }
 
+@keyframes izquierda {
+    from { transform: translate(0px,0px); } to { transform: translate(-100px,0px); }
+}
+
 .centro{
     display: flex;
     justify-content: center;
@@ -30,9 +35,35 @@
     width: fit-content;
 }
 
+@keyframes izquierda {
+    10%{
+        transform:translatex(-1%);
+      }
+     25%{
+        transform:translatex(-2%);
+      }
+      35%{
+        transform:translatex(-3%);
+      }
+      50%{
+        transform:translatex(-4%);
+      }
+      60%{
+        transform:translatex(-5%);
+      }
+      75%{
+        transform:translatex(-6%);
+      }
+      85%{
+        transform:translatex(-7%);
+      }
+      100%{
+        transform:translatex(-800%);
+      }
+     
+}
+
 .pantalla{
-    background-color: black;
-    background-color: #aba9a4;
     width: 332px;
     height: 157px;
     margin-left: 26px;
@@ -42,6 +73,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    transition: 3s ease;
 }
 
 .diapositiva{

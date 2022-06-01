@@ -1,8 +1,10 @@
 [
     {
-        "miniatura": "./ReplicasImages/UA-ACADEMY.png"
+        "miniatura": "./ReplicasImages/UA-ACADEMY.png",
+        "link": "https://earnest-figolla-056749.netlify.app/"
     },
     {
-        "miniatura": "./ReplicasImages/UA-ACADEMY.png"
+        "miniatura": "./ReplicasImages/Youtube.png",
+        "link": "https://voluble-rolypoly-f5c67d.netlify.app/"
     }
 ]
