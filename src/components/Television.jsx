@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable quotes */
 /* eslint-disable quote-props */
 import { useEffect, useRef, useState } from 'react'
@@ -22,6 +23,12 @@ const Television = ({ libro }) => {
             contador.current = (contador.current + 1) % viendo.current.length
             setPantalla(viendo.current[contador.current].miniatura)
         }, 3500)
+    })
+
+    const newLink = (() => {
+        if (viendo.current[contador.current].link !== "") {
+            window.open(viendo.current[contador.current].link)
+        }
     })
 
     useEffect(() => {
@@ -49,7 +56,8 @@ const Television = ({ libro }) => {
         <div className="centro">
             <div className="tele">
                 { vacio
-                    ? <div className="pantalla" style={{ backgroundImage: `url(${pantalla})`, backgroundColor: '#aba9a4' }} />
+                    // eslint-disable-next-line jsx-a11y/control-has-associated-label
+                    ? <div className="pantalla" role="button" tabIndex={0} style={{ backgroundImage: `url(${pantalla})`, backgroundColor: '#aba9a4' }} onClick={() => { newLink() }} />
                     : <div className="pantalla" />}
             </div>
             <div className="mueble" />

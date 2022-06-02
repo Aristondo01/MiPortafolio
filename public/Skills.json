@@ -1,29 +1,38 @@
 [
     {
-        "miniatura": "./SkillsImages/GitHub.jpg"
+        "miniatura": "./SkillsImages/GitHub.jpg",
+        "link": ""
     },
     {
-        "miniatura": "./SkillsImages/REACTJSX.jpg"
+        "miniatura": "./SkillsImages/REACTJSX.jpg",
+        "link": ""
     },
     {
-        "miniatura": "./SkillsImages/CSSI.jpg"
+        "miniatura": "./SkillsImages/CSSI.jpg",
+        "link": ""
     },
     {
-        "miniatura": "./SkillsImages/JSI.jpg"
+        "miniatura": "./SkillsImages/JSI.jpg",
+        "link": ""
     },
     {
-        "miniatura": "./SkillsImages/Figma.jpg"
+        "miniatura": "./SkillsImages/Figma.jpg",
+        "link": ""
     },
     {
-        "miniatura": "./SkillsImages/SQLI.jpg"
+        "miniatura": "./SkillsImages/SQLI.jpg",
+        "link": ""
     },
     {
-        "miniatura": "./SkillsImages/HTMLI.jpg"
+        "miniatura": "./SkillsImages/HTMLI.jpg",
+        "link": ""
     },
     {
-        "miniatura": "./SkillsImages/DT.jpg"
+        "miniatura": "./SkillsImages/DT.jpg",
+        "link": ""
     },
     {
-        "miniatura": "./SkillsImages/Scrum.jpg"
+        "miniatura": "./SkillsImages/Scrum.jpg",
+        "link": ""
     }
 ]

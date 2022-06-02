@@ -35,34 +35,6 @@
     width: fit-content;
 }
 
-@keyframes izquierda {
-    10%{
-        transform:translatex(-1%);
-      }
-     25%{
-        transform:translatex(-2%);
-      }
-      35%{
-        transform:translatex(-3%);
-      }
-      50%{
-        transform:translatex(-4%);
-      }
-      60%{
-        transform:translatex(-5%);
-      }
-      75%{
-        transform:translatex(-6%);
-      }
-      85%{
-        transform:translatex(-7%);
-      }
-      100%{
-        transform:translatex(-800%);
-      }
-     
-}
-
 .pantalla{
     width: 332px;
     height: 157px;
@@ -75,6 +47,7 @@
     background-position: center;
     transition: 2s ease;
     background-color: black;
+    cursor: pointer;
 }
 
 .diapositiva{
